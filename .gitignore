@@ -3,3 +3,6 @@ data/
 *.safetensors
 runs/detect/val/
 *.zip
+
+!runs/detect/train*/weights/*.pt
+!rt-detr-*-results/*.safetensors
